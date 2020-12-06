@@ -1,70 +1,395 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Kanav Pruthi-A web designer.</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="hnet.com-image.ico" >
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+<title>Kanav Pruthi</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Kanav, Kanav Pruthi, Kanav Pruthi Github" />
+<script src="https://kit.fontawesome.com/1eb4c237a9.js" crossorigin="anonymous"></script>
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+	<!-- css files -->
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' /><!-- bootstrap css -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' /><!-- custom css -->
+
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- //css files -->
+	<!-- google fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<!-- //google fonts -->
+	<link rel="icon" href="favicon.ico">
+
+	<link href="css/font-awesome.min.css" rel="stylesheet"><!-- fontawesome css -->
 </head>
-
 <body>
-  <div class="top">
-    <img class="cloud1" src="images/cloud.png" alt="cloud image">
-    <span class="titles">
-      <h1 class="head" style="font-size:562.5%; font-weight:lighter; margin-bottom:10px;">I'm Kanav.</h1>
-      <p style="font-weight: normal ;color:#4AB19A; font-family: 'Ubuntu Mono', monospace; font-size:170%;">a web designer.</p>
-    </span>
-    <img class="cloud2" src="images/cloud.png" alt="cloud image">
-    <img src="images/mountain.png" alt="mountain image">
-  </div>
-  <div class="middle">
-    <div class="profile">
-      <img id="profile" src="https://as1.ftcdn.net/jpg/02/92/67/14/500_F_292671484_ZkhsVaDRABEUCokbfts63I7A02oNATZZ.jpg" alt="Sorry!Image not available ">
-      <h2>Hello.</h2>
-      <p style="margin-bottom:70px;">I am a Web Developer. I love coffee, and double cheese margherita.</p>
-    </div>
-    <hr>
-    <div class="skills" style="margin-top:70px;">
-      <h2>My Skills.</h2>
-      <div class="skill-row" style="display:inline-block;width:50%;margin:70px auto 100px; text-align:left;line-height:2;">
-        <img class="comp" src="https://image.freepik.com/free-vector/programming-code-computer-screen-programme-development-illustration-cartoon-flat-style-clipart_101884-603.jpg" alt="" style="width:25%;margin-right: 30px;height:25%;float:left;">
-        <h3>Design and Development</h3>
-        <p>I started coding when I was 14, mainly because I had a fantasy of making my own games and applications. Since then
-          I have had a great time learning about web development and designing. Over time, I have had many interests, and developed
-          various other skills. </p>
-      </div>
-      <div class="skill-row" style="display:inline-block;width:50%; margin:auto auto 100px;text-align:left;line-height:2;">
-        <img class="pizza" style="border-radius:0%;width:25%;height:25%;float:right;margin-left: 30px;" src="https://friendlystock.com/wp-content/uploads/2019/12/6-special-pizza-slice-cartoon-clipart.jpg" alt="pizza image" >
-        <h3>Pizza</h3>
-        <p>Other skills apart, my best skill is at eating pizzas, at which no one can beat me ❤ 😋. My
-        personal favourites are the double cheese margherita, and double topping cheeseburst pizza.</p>
-      </div>
-    </div>
-    <hr>
-    <div class="contact-me" style="margin-top:50px;">
-      <h2 >Get In Touch</h2>
-      <h3 style="margin-top:40px;">If you love pizzas as much as I do.</h3>
-      <p style="margin-top:40px; display: block; width:50%; margin: auto auto 50px;">Love pizza as much as I do? Lets
-        talk about how delicious they are! You can contact me for collaboration or hire me as a developer.
-         We can also eat pizza while coding😋😋.</p>
-      <a href="mailto:kanav.pruthi@gmail.com" class="myButton" style="margin-bottom:60px;">CONTACT ME</a>
-    </div>
-  </div>
+<div style="height: 100%;">
+	<!-- header -->
+<header>
+	<nav class="navbar">
+		<div class="container">
+			<h1 class="wthree-logo" style="color: white;">
+				<i class="fa fa-accusoft  fa-lg" aria-hidden="true"></i>
+			</h1>
+
+			<ul id="menu">
+				<li>
+					<input id="check02" type="checkbox" name="menu" />
+					<label for="check02"><span class="fa fa-bars" aria-hidden="true"></span></label>
+					<ul class="submenu">
+						<li><a href="index.html" class="active">Home</a></li>
+						<li><a href="#about">About Me</a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#testimonials">Testimonials</a></li>
+						<li><a href="#contact">Contact Me</a></li>
+					</ul>
+				</li>
+			</ul>
+
+		</div>
+	</nav>
+</header>
+<!-- //header -->
+<!-- banner -->
+<div id="home" class="banner-w3pvt d-flex">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 bnr-txt-w3pvt">
+				<div style="font-family:Montserrat;" class="bnr-w3pvt-txt mt-sm-5">
+					<h6>Welcome to my Personal website</h6>
+					<h2>Hi, <span>I'm Kanav.</span></h2>
+					<h4 style="text-align: left;">designer - developer - student</h4>
+					<p class="mt-4">Sophomore at IIT Delhi </p>
+					<ul class="social_section_1info mt-4">
+						<li class="mb-2 facebook"><a href="https://github.com/kanavpruthi"><span class="fa fa-github"></span></a></li>
+						<li class="mb-2 twitter"><a href="https://www.instagram.com/kanav.pruthi/"><span class="fa fa-instagram"></span></a></li>
+						<li class="linkedin"><a href="https://www.linkedin.com/in/kanav-pruthi-9aa4881a9/"><span class="fa fa-linkedin"></span></a></li>
+						<li class="pinterest"><a href="mailto:kanav.pruthi@gmail.com"><span class="fa fa-google"></span></a></li>
+					</ul>
+					<div style="padding-top: 20px;">
+						<a href="#about" class="scroll mr-2"><button type="button" class="btn btn-outline-light btn-lg">About Me</button></a>
+						<a href="Kanav-Pruthi-CV1.pdf" download><button type="button" class="btn btn-outline-light btn-lg">Download CV</button></a>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //banner -->
+</div>
 
 
-  <div class="bottom">
-    <div style="margin-bottom:40px;">
-      <a style="color:#11999E; text-decoration:none;"class="footer-link" href="https://www.linkedin.com/">LinkedIn </a>&emsp;&emsp;&emsp;
-      <a style="color:#11999E;text-decoration:none;" class="footer-link" href="https://twitter.com/">Twitter</a>&emsp;&emsp;&emsp;
-      <a style="color:#11999E;text-decoration:none; " class="footer-link" href="http://www.iitd.ac.in/"> Website </a>
-
+<!-- about -->
+<section class="about" id="about">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-5 p-0">
+				<img src="images/abut1.jpg" style="height: 528px;width:100%;" class="img-fluid" />
+			</div>
+			<div class="col-lg-6">
+				<div class="about-right">
+					<p>I'm a sophomore at IIT Delhi pursuing B.Tech in
+						Electrical Engineering. I have, quite often been enthralled and
+						mesmerized by the impact technology has made on our lives, and how
+						various pieces of technology has revolutionized different industries.
+					</p>
+					<div class="row mt-sm-5 mt-4 about-right-inner">
+						<div class="col-sm-4 col-6 myphoto-sign text-center">
+							<img src="https://as1.ftcdn.net/jpg/02/92/67/14/500_F_292671484_ZkhsVaDRABEUCokbfts63I7A02oNATZZ.jpg" alt="" class="img-fluid rounded-circle"/>
+							<!-- <img src="images/signature.png" alt="" class="img-fluid mt-3"/> -->
+						</div>
+						<div class="col-sm-7 offset-lg-1">
+							<p>Some other areas of my interest are reading about latest
+								technologies, Finance, and playing cricket as a hobby too.
+							</p>
+							<h4 class="mt-4">Skills & Abilities</h4>
+							<div class="progress-one mt-3">
+								<h4 class="progress-tittle">Programming(Java/JS/Python/C++)</h4>
+								<div class="progress">
+									<div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="progress-one mt-3">
+								<h4 class="progress-tittle">Web Designing</h4>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+							<div class="progress-one">
+								<h4 class="progress-tittle">App Development</h4>
+								<div class="progress">
+									<div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h3 class="position">About Me</h3>
+		</div>
     </div>
-    <p style="color:#EAF6F6; font-size:75%;">© 2020 Kanav Pruthi @ IIT DELHI.</p>
-  </div>
+</section>
+<!-- //about -->
+
+
+
+<!-- My journey here So far!! -->
+
+<div class="container">
+	<h1 class="journey">My Journey So Far</h1>
+	<hr style="width: 50%; color: #c9c9c9;padding-bottom: 15px;height: 50px;">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="main-timeline">
+				<a href="#" class="timeline">
+					<div class="timeline-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+					<div class="timeline-content">
+						<h3 class="title">ELL101 Acad. Mentor</h3>
+						<p class="description">
+							Here, I mentor freshers in the subject Intro. to Electrical
+							Engineering(ELL101), answer their queries and conduct live
+							video sessions once a week.
+						</p>
+					</div>
+				</a>
+				<a href="#" class="timeline">
+					<div class="timeline-icon"><i class="fas fa-mobile-alt"></i></div>
+					<div class="timeline-content">
+						<h3 class="title">App Developer</h3>
+						<p class="description">
+							I gained experience in Flutter(Dart) by building
+							personal projects. I finally worked on an android/iOS
+							app ShareACab, a ride charing app for students, as a part of
+							DevClub IITD project.
+						</p>
+					</div>
+				</a>
+				<a href="#" class="timeline">
+					<div class="timeline-icon"><i class="fas fa-code"></i>					</div>
+					<div class="timeline-content">
+						<h3 class="title">Web Developer</h3>
+						<p class="description">
+							I gained experience in HTML5,  CSS, and
+							JavaScript by building personal projects. I also built a
+							FoodTracking WebApp, that tracks calories consumed for
+							users every day and suggests optimal exercises.
+						</p>
+					</div>
+				</a>
+				<a href="#" class="timeline">
+					<div class="timeline-icon"><i class="fas fa-robot"></i></div>
+					<div class="timeline-content">
+						<h3 class="title">Team member-Robotics Club IITD</h3>
+						<p class="description">
+							Here, my team and I built a programmed grabber arm
+							robot to pick objects and move them, as a part of the
+							Winter Project at the Robotics Club IITD,
+							that we presented at Techfest, IIT Bombay 2019.
+						</p>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<hr>
+
+<!-- Education -->
+
+<!-- quote -->
+<!-- <section class="quote py-5">
+	<div class="container py-lg-5">
+		<div class="row">
+			<div class="col-lg-8">
+				<h4>" I've worked with some X company for several years and that is the best company in the Market. Mauris elementum tortor a nisl
+				aliquet fringilla. Donec et risus augue. Proin sit amet maximus dui Vivamus lacinia nisi tempor ligula sagittis vehicula."</h4>
+				<h5>designer - developer - student</h5>
+				<img src="images/signature.png" alt="" class="img-fluid"/>
+			</div>
+		</div>
+	</div>
+</section> -->
+<!-- //quote -->
+
+
+
+<!-- portfolio -->
+<section class="portfolio py-5" id="portfolio">
+	<div class="container py-lg-5">
+		<h3 class="heading mb-sm-5 mb-4">Technical Projects</h3>
+		<div class="row">
+			<div class="col-lg-3 col-md-4 col-6 p-0">
+				<div class="box9">
+					<img src="images/portfolio1.jpg" alt="portfolio" class="img-fluid" />
+					<div class="box-content">
+						<i class="fas fa-taxi fa-3x" style="padding-bottom: 10px;"></i>
+						<h3 class="title">ShareACab</h3>
+						<p> An app that allows ride-sharing for students.
+						</p>
+						<ul class="icon">
+
+							<li><a href="https://github.com/kanavpruthi/ShareACab"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-6 p-0">
+				<div class="box9">
+					<img src="images/portfolio2.jpg" alt="portfolio" class="img-fluid" />
+					<div class="box-content">
+						<i class="fas fa-hamburger fa-3x"></i>
+						<h3 class="title">FoodTracker</h3>
+						<ul class="icon">
+							<li><a href="https://github.com/kanavpruthi/FoodTracker1"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-6 p-0">
+				<div class="box9">
+					<img src="images/portfolio3.jpg" alt="portfolio" class="img-fluid" />
+					<div class="box-content">
+						<i class="fas fa-drum fa-3x"></i>
+						<h3 class="title">Virtual Drumkit</h3>
+						<ul class="icon">
+
+							<li><a href="https://github.com/kanavpruthi/drumkit"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-6 p-0">
+				<div class="box9">
+					<img src="images/portfolio4.jpg" alt="portfolio" class="img-fluid" />
+					<div class="box-content">
+						<i class="fas fa-brain fa-3x"></i>
+						<h3 class="title">Memory Game</h3>
+						<ul class="icon">
+							<li><a href="https://github.com/kanavpruthi/simon"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="col-lg-3 col-md-4 col-6 p-0">
+				<div class="box9">
+					<img src="images/portfolio5.jpg" alt="portfolio" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">Portfolio 5</h3>
+						<ul class="icon">
+							<li><a href="#"><i class="fa fa-search"></i></a></li>
+							<li><a href="#"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-6 p-0">
+				<div class="box9">
+					<img src="images/portfolio1.jpg" alt="portfolio" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">Portfolio 6</h3>
+						<ul class="icon">
+							<li><a href="#"><i class="fa fa-search"></i></a></li>
+							<li><a href="#"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-6 p-0">
+				<div class="box9">
+					<img src="images/portfolio2.jpg" alt="portfolio" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">Portfolio 7</h3>
+						<ul class="icon">
+							<li><a href="#"><i class="fa fa-search"></i></a></li>
+							<li><a href="#"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-6 p-0">
+				<div class="box9">
+					<img src="images/portfolio3.jpg" alt="portfolio" class="img-fluid" />
+					<div class="box-content">
+						<h3 class="title">Portfolio 8</h3>
+						<ul class="icon">
+							<li><a href="#"><i class="fa fa-search"></i></a></li>
+							<li><a href="#"><i class="fa fa-link"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div> -->
+		</div>
+	</div>
+</section>
+<!-- //portfolio -->
+
+<!-- footer -->
+<footer class="py-lg-5 py-4">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-2">
+				<h3 class="wthree-logo mt-3" style="color: white;">
+					<i class="fa fa-accusoft fa-lg" aria-hidden="true"></i>
+				</h3>
+			</div>
+			<div class="col-lg-7 my-lg-0 my-4">
+				<p><span class="fa mr-2 fa-map-marker"></span>Mumbai, Maharashtra, India</p>
+				<p class="mt-2"><span class="fa mr-2 fa-envelope"></span><a href="mailto:kanav.pruthi@gmail.com">kanav.pruthi@gmail.com</a></p>
+			</div>
+			<div class="col-lg-3 copy-right p-0 text-lg-right">
+			
+				<p>You can connect with me here</p>
+
+				<ul class="social_section_1info">
+					<li class="mb-2 facebook"><a href="https://github.com/kanavpruthi"><span class="fa fa-github"></span></a></li>
+					<li class="mb-2 twitter"><a href="https://www.instagram.com/kanav.pruthi/"><span class="fa fa-instagram"></span></a></li>
+					<li class="linkedin"><a href="https://www.linkedin.com/in/kanav-pruthi-9aa4881a9/"><span class="fa fa-linkedin"></span></a></li>
+					<li class="pinterest"><a href="mailto:kanav.pruthi@gmail.com"><span class="fa fa-google"></span></a></li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- //footer -->
+
+<!-- copyright -->
+<div class="copyright py-3 text-center">
+	<div class="container">
+		<p class="my-2">
+			Designed by Kanav Pruthi | IIT Delhi
+		</p>
+	</div>
+</div>
+<!-- copyright -->
+<!-- move top -->
+<div class="move-top text-right">
+	<a href="#home" class="move-top"> 
+		<span class="fa fa-angle-up  mb-3" aria-hidden="true"></span>
+	</a>
+</div>
+
+
+<!-- move top -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
 </body>
-
 </html>
